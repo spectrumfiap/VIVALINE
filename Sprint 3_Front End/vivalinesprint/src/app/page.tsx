@@ -23,7 +23,7 @@ const Home = () => {
 
                         <li className="flex justify-center">
                             <Link href="/StatusLinhas">
-                                <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105" src="/assets/status-linhas-semfundo.png" width={260} height={250} alt="Status das linhas" /> 
+                                <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105" src="/assets/status-linhas-semfundo.png" width={260} height={250} alt="Status das linhas"/> 
                             </Link>
                             <br></br>
                             
@@ -38,7 +38,7 @@ const Home = () => {
                         </li>
 
                         <li className="flex justify-center">
-                            <Link href="">
+                            <Link href="https://www.instagram.com/jhonattaxzz_/">
                                 <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105" src="/assets/assistente-virtual-semfundo.png" width={260} height={250} alt="Assistente virtual"/> 
                             </Link>
                             <br></br>

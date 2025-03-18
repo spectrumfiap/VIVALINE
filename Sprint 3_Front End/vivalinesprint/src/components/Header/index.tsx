@@ -15,7 +15,7 @@ const Header = () => {
 
                 <ul className="flex gap-32 items-center pt-6 ">
                     <li className="text-2xl">
-                        <Link href="" target="_blank">Quem somos?
+                        <Link href="/QuemSomos" target="_blank">Quem somos?
                         </Link>
                     </li>
                     
