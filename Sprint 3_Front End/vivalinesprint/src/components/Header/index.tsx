@@ -25,7 +25,7 @@ const Header = () => {
                     </li> 
 
                     <li>
-                    <Image src="/assets/Login.svg" alt="login" width={40} height={20} className="flex items-center justify-end space-x-4 pb-"/>
+                    <a href="../../cadastro"><Image src="/assets/Login.svg" alt="login" width={40} height={20} className="flex items-center justify-end space-x-4 pb-"/></a>
                     </li>
                 </ul>
             
