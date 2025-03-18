@@ -1,7 +1,7 @@
 const Aside = () => {
     return(
 
-        <aside className="font-Kanit w-[35%] flex flex-col h-full border-r-1"> {/*Esta será a aba de Noticias, cada div terá uma className */ }
+        <aside className="font-Kanit w-[35%] flex flex-col h-full border-r-1 "> {/*Esta será a aba de Noticias, cada div terá uma className */ }
             <h2 className="bg-[#ffffff] text-black font-kanit text-[2rem] text-center p-10 border-b  border-black">NOTÍCIAS <span>HOJE
 
             </span></h2>

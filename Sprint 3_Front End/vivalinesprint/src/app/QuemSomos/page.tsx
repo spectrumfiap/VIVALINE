@@ -6,7 +6,7 @@ const QuemSomos = () => {
     <main className="h-full flex justify-center">
         <ul className="flex justify-center items-center gap-[20vw]  ">
           <li className="text-center flex flex-col gap-3.5 ">
-            <Image src="./assets/Arthur.svg" width={200} height={200} alt="Arthur_image"/>
+            <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105 rounded-full " src="./assets/Arthur.svg" width={200} height={200} alt="Arthur_image"/>
             <p className="font-medium text-2xl">Arthur Thomas</p>
             <p>RM: 561061</p>
             <p>TURMA: 1TDSPA</p>
@@ -21,7 +21,7 @@ const QuemSomos = () => {
           </li>
 
           <li className="text-center flex flex-col gap-3.5 ">
-            <Image src="./assets/Luann.svg" width={200} height={200} alt="Luann_image"/>
+            <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105 rounded-full " src="./assets/Luann.svg" width={200} height={200} alt="Luann_image"/>
             <p className="font-medium text-2xl">Luann Noqueli</p>
             <p>RM: 560313</p>
             <p>TURMA: 1TDSPA</p>
@@ -37,7 +37,7 @@ const QuemSomos = () => {
           </li>
            
           <li className="text-center flex flex-col gap-3.5 ">
-            <Image src="./assets/Jhonatta.svg" width={200} height={200} alt="Jhonatta_image"/>
+            <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105 rounded-full " src="./assets/Jhonatta.svg" width={200} height={200} alt="Jhonatta_image"/>
             <p className="font-medium text-2xl">Jhonatta Lima</p>
             <p>RM: 560277</p>
             <p>TURMA: 1TDSPA</p>

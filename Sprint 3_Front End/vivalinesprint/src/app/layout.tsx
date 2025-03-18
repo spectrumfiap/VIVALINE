@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import {Kanit} from "next/font/google";
 
-
-
+export const kanit = Kanit({ subsets: ["latin"], weight: ["300", "400", "600"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className=" flex flex-col h-screen">
+      <body className=" flex flex-col h-screen {kanit.className}">
           <Header />
           {children}
           <Footer />

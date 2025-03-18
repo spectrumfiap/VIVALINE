@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Status = () => {
   return (
-    <main className="flex-1  bg-gradient-to-b from-white to-[#C7CDCF]">
+    <main className="flex-1 ">
         <div>
           <h1 className="font-sans text-[3rem] pl-8">Status das linhas</h1>
         </div>

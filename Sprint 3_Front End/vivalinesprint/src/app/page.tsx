@@ -38,7 +38,7 @@ const Home = () => {
                         </li>
 
                         <li className="flex justify-center">
-                            <Link href="https://www.instagram.com/jhonattaxzz_/">
+                            <Link href="/Chatbot">
                                 <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105" src="/assets/assistente-virtual-semfundo.png" width={260} height={250} alt="Assistente virtual"/> 
                             </Link>
                             <br></br>
