@@ -3,32 +3,30 @@ import Link from "next/link"
 
 const Header = () => {
     return(
-        <header className="bg-[#C7CDCF] flex items-center pb-4 justify-between pr-8 border-b-1" >
+        <header className="bg-[#454444] flex items-center pb-4 justify-between pr-8 border-b-1 " >
 
             <Image src="/assets/VIVALINE.svg" alt="Logo" width={200} height={100} className="pb-0 pt-5 pl-6 pr-0"/>
-            <input  className="border-2 rounded-2xl pl-3 mt-6 w-60
-            ml-2  border-gray-500 bg-[#D9D9D9] p-1.5   text-black" placeholder="O que você deseja?" type="text"/>
+            <input  className="border-2 rounded-2xl pl-3 mt-6 w-100
+            ml-2 border-gray-500 bg-[#D9D9D9] p-1.5 text-black [background-image:url('/assets/lupa-cinza.svg')] bg-no-repeat bg-right cursor-pointer" placeholder="O que você deseja?"type="text"/>
 
-            <button className="px-5 py-1  mt-6 text-lg font-bold border-none bg-gray-400 text-white 
-                   rounded-md cursor-pointer transition-all duration-300 ease-in-out 
-                   shadow-md hover:shadow-lg">Pesquisar</button>
+            
 
 
-                <ul className="flex items-center pt-6 gap-16">
-                    <li className="text-2xl">
-                        <Link href="/QuemSomos" target="_blank">Quem somos?
-                        </Link>
-                    </li>
+            <ul className="flex items-center pt-6 gap-16">
+                <li className="text-2xl text-white" >
+                    <Link href="/QuemSomos">Quem somos?
+                    </Link>
+                </li>
                     
-                    <li className="text-2xl">
-                        <Link href="" target="_blank">Dúvidas frequentes</Link>
+                <li className="text-2xl text-white">
+                    <Link href="/Duvidas">Dúvidas frequentes</Link>
                         
-                    </li> 
+                </li> 
 
-                    <li>
-                    <a href="../../cadastro"><Image src="/assets/Login.svg" alt="login" width={40} height={20} className="flex items-center justify-end space-x-4 pb-"/></a>
-                    </li>
-                </ul>
+                <li>
+                <a href="../../cadastro"><Image src="/assets/User-branco.svg" alt="login" width={40} height={20} className="flex items-center justify-end space-x-4 pb-"/></a>
+                </li>
+            </ul>
             
 
 
