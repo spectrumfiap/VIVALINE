@@ -4,7 +4,7 @@ import Link from "next/link"
 const QuemSomos = () => {
   return (
     <main className="h-full flex justify-center">
-        <ul className="flex justify-center items-center gap-[20vw]  ">
+        <ul className="flex justify-center items-center md:gap-[10vw] lg:gap-[20vw]  ">
           <li className="text-center flex flex-col gap-3.5 ">
             <Image className="transition duration-300 ease-in-out hover:shadow-lg hover:scale-105 rounded-full " src="./assets/Arthur.svg" width={200} height={200} alt="Arthur_image"/>
             <p className="font-medium text-2xl">Arthur Thomas</p>

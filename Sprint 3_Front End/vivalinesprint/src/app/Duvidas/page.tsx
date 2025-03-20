@@ -10,10 +10,10 @@ export default function FAQ() {
   };
 
   const questions = [
-    { question: "O que é o Totem Vivaline CCR?", answer: "O totem é um sistema que facilita o acesso a informações e serviços do metrô." },
-    { question: "O assistente virtual pode responder a qualquer pergunta?", answer: "Ele responde às principais dúvidas sobre o sistema de transporte." },
-    { question: "O totem é acessível para pessoas com deficiência?", answer: "Sim, ele possui acessibilidade para cadeirantes e deficientes visuais." },
-    { question: "Posso comprar bilhetes através do totem?", answer: "Sim, você pode comprar bilhetes diretamente pelo totem." },
+    { question: "O que é o Totem Vivaline CCR?", answer: "Nosso projeto propõe o desenvolvimento de um sistema integrado para totens interativos voltado aos passageiros e funcionários das estações de metrô da CCR. O objetivo é atuar como um guia completo, oferecendo suporte com mapas do metrô, informações detalhadas sobre as estações (incluindo estrutura, acessos, e serviços disponíveis), localização de pontos comerciais, além de atualizações e notícias sobre o que está acontecendo no metrô. O sistema também fornecerá atendimento especializado, respostas a dúvidas frequentes e orientações sobre o funcionamento do metrô. Além disso, o totem contará com um assistente virtual para prestar suporte em tempo real, auxiliando os passageiros em qualquer necessidade." },
+    { question: "Como funcionaria a aba Mapa Interativo?", answer: "O Mapa Interativo do Totem CCR foi desenvolvido para oferecer aos usuários uma navegação intuitiva e prática dentro do sistema ferroviário. Com ele, é possível acessar informações detalhadas sobre as linhas e estações, tornando a experiência de deslocamento mais eficiente e acessível." },
+    { question: "Como encontro estabelecimentos dentro da estação?", answer: "A função Comércios Locais lista todas as lojas, lanchonetes e serviços disponíveis na estação, além de seus horários de funcionamento." },
+    { question: "Existe um limite de tempo para usar o totem?", answer: "Não há um tempo limite, mas para garantir que todos os passageiros possam utilizar, recomenda-se que cada pessoa use por tempo razoável." },
   ];
 
   return (
