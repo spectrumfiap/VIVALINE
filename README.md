@@ -38,3 +38,6 @@ Obrigado pelo seu tempo! Qualquer ideia ou contribuição será bem-vinda!
 
 💡 **Desenvolvido pelo grupo Spectrum [VivaLine]
 (https://github.com/spectrumfiap/VIVALINE)
+
+ Video de explicação do site no youtube:
+ https://youtu.be/bCSZWKKoKAA
