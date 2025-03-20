@@ -1,8 +1,8 @@
 const Aside = () => {
     return(
 
-        <aside className="font-Kanit flex flex-col h-full border-r-1 sm:w-full sm:flex sm:flex-col md:w-full lg:w-[35%] "> {/*Esta será a aba de Noticias, cada div terá uma className */ }
-            <h2 className="bg-[#ffffff] text-black font-kanit text-[2rem] text-center p-10 border-b  border-black">NOTÍCIAS <span>HOJE
+        <aside className="font-Kanit flex flex-col h-full border-r-1 w-[45%] sm:w-[25%] md:w-[30%] lg:w-[35%] "> {/*Esta será a aba de Noticias, cada div terá uma className */ }
+            <h2 className="bg-[#ffffff] text-black font-kanit text-[1.1rem] lg:text-[2rem] md:text-[2rem] text-center p-10 border-b  border-black">NOTÍCIAS <span>HOJE
 
             </span></h2>
 
@@ -11,14 +11,14 @@ const Aside = () => {
                 <h2 className=" sm:text-sm md:text-md lg:text-[1.5rem] font-semibold ">Paralização na linha esmeralda.</h2>
                 <span>10/10/2024 15:12</span>
                 <br></br>
-                <span className="text-2xl">Ver mais</span>
+                <span className="text-1xl md:text-2xl lg:text-2xl">Ver mais</span>
             </li>
 
             <li className="pl-4 p-12 border-b-1">
                 <h2 className="font-semibold sm:text-sm md:text-md lg:text-[1.5rem] ">Como estão as obras da nova Estação Ambuitá da linha 8-Diamante.</h2>
                 <span>10/10/2024 15:12</span>
                 <br></br>
-                <span className="text-2xl">Ver mais</span>
+                <span className="text-1xl md:text-2xl lg:text-2xl">Ver mais</span>
             </li>
 
         </ul>

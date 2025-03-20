@@ -53,8 +53,8 @@ const SearchBar = () => {
     <div className="flex items-center">
 
       <input
-        className="border-2 rounded-2xl pl-3 mt-6 
-            ml-2 border-gray-500 bg-[#D9D9D9] p-1.5 text-black bg-no-repeat bg-right cursor-pointer w-full sm:w-80 md:w-46 md:p-1 lg:w-100 lg:p-1.5"
+        className="border-2 rounded-2xl sm:pl-3 md:pl-3 lg:pl-3 mt-6 
+           sm:ml-2 md:ml-2 lg:ml-2 ml-0 border-gray-500 bg-[#D9D9D9] pl-2 p-1 text-black bg-no-repeat bg-right cursor-pointer w-[6.3rem] text-[0.55rem] lg:text-[1rem] h-[1.4rem] sm:w-80 md:w-46 md:h-7 md:p-1 lg:w-65 lg:h-9 lg:p-1.5"
         placeholder="O que você deseja?"
         type="text"
         value={query}
@@ -64,7 +64,7 @@ const SearchBar = () => {
 
       <button
         onClick={handleSearch}
-        className="ml-2 h-10 w-10 sm:w-10 sm:h-10 md:w-12 md:h-10 lg:w-12 lg:h-10 p-2 bg-gray-300 rounded-lg flex items-center justify-center mt-6"
+        className="ml-2 h-4 w-7 sm:w-10 sm:h-10 md:w-8 md:h-6 lg:w-8 lg:h-8 p-2 bg-gray-300 rounded-lg flex items-center justify-center mt-6"
       >
         <Image src="/assets/lupa-cinza.svg" alt="Buscar" width={20} height={20} />
       </button>

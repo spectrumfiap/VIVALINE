@@ -9,7 +9,7 @@ const Home = () => {
         <div className="flex bg-gradient-to-b from-white to-[#C7CDCF] flex-1   ">
             
             <Aside/>
-            <main className="h-full sm:w-full sm:flex sm:flex-col md:w-full lg:w-[65%]  ">
+            <main className="h-full w-[55%] sm:w-[75%] md:w-[70%] lg:w-[65%]  ">
                 
                     <ul className="grid grid-cols-2 grid-rows-2 items-center h-full">
                         <li className="flex justify-center">

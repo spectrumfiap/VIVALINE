@@ -19,7 +19,7 @@ export default function FAQ() {
   return (
     <div className="flex flex-col gap-20 min-h-screen bg-gray-100 p-6">
         <div className="">
-         <h1 className="text-3xl font-bold mb-4">DÚVIDAS FREQUENTES</h1>
+         <h1 className="text-2xl md:text-3xl lg:text-3xl font-bold mb-4">DÚVIDAS FREQUENTES</h1>
         </div>
 
       <div className="bg-white shadow-md rounded-lg p-4 w-full ">
