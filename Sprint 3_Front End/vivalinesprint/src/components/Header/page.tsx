@@ -1,5 +1,10 @@
+'use client';
+
 import Image from "next/image"
 import Link from "next/link"
+import dynamic from "next/dynamic";
+
+const SearchBar = dynamic(() => import('../searchBar'), { ssr: false });
 
 const Header = () => {
     return(
@@ -10,8 +15,7 @@ const Header = () => {
             <Image src="/assets/VIVALINE.svg" alt="Logo" width={200} height={100} className="pb-0 pt-5 pl-6 pr-0 sm:w-[5] md:w-[100] lg:w-[200] "/>
             </Link>
 
-            <input  className="border-2 rounded-2xl pl-3 mt-6 
-            ml-2 border-gray-500 bg-[#D9D9D9] p-1.5 text-black [background-image:url('/assets/lupa-cinza.svg')] bg-no-repeat bg-right cursor-pointer w-full sm:w-80 md:w-46 md:p-1 lg:w-100 lg:p-1.5  " placeholder="O que você deseja?"type="text"/>
+            <SearchBar />
 
             
 
