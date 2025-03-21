@@ -28,7 +28,7 @@ import Image from 'next/image'
 
 
       <div className="w-[55%]">
-        <Image width={1500} height={1500} src="./assets/ChiliBeans.svg" alt="Imagem chili" />
+        <Image width={1500} height={1500} src="/assets/ChiliBeans.svg" alt="Imagem chili" />
       </div>
       
 
